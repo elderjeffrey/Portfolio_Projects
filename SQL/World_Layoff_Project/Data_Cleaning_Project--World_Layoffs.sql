@@ -4,7 +4,7 @@ from layoffs;
 -- 1. remove duplicates
 -- 2. standardize data
 -- 3. null values or blank values
--- 4. remove any columns (situational) or rows
+-- 4. remove any columns or rows (situational)
 
 create table layoffs_staging
 like layoffs;
